@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane fx:id="okvir" alignment="center" hgap="10" style="-fx-background-color: lightblue;" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ba.unsa.etf.rs.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Button fx:id="hello" mnemonicParsing="false" onAction="#Submit" text="Say `Hello World!" />
+      <Label fx:id="world" text="helloWorld" GridPane.rowIndex="1" />
+   </children>
+</GridPane>
